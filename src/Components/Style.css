@@ -1,6 +1,6 @@
 .Navbar {
     background-color: #F6EFE8;
-    font-family: 'Caveat', cursive;
+    font-family: 'Basic', sans-serif;;
     font-weight: 600;
     padding: 0em 1em;
     font-size: 18px;
@@ -46,7 +46,7 @@ border-radius: 0.5em;
     font-size: 20px;
 }
 .Home{
-    font-family: 'Caveat', cursive;
+    font-family: 'Basic', sans-serif;;
 }
 
 .down{
