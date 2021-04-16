@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import { Link } from 'react-router-dom';
-import {Button ,Navbar, Nav, Form, FormControl, Container} from 'react-bootstrap';
+import {Button ,Navbar, Nav, Form, FormControl,Row,Col, Container} from 'react-bootstrap';
 import slack from './slack.svg';
 import './Style.css';
 
@@ -17,9 +17,8 @@ function Navbar1(){
   }
     return(
 <div className="Navbar">
-<Navbar>
-<Navbar.Brand href="#home">
-  <img
+<Navbar expand="lg">
+  <Navbar.Brand href="#home">  <img
     alt=""
     src ={slack}
     width="80"
@@ -28,11 +27,11 @@ function Navbar1(){
     onClick={download}
   />
 </Navbar.Brand>
-<div>
-<Navbar>
-    <Navbar.Brand href="#home">Home</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="https://slack.com/intl/en-in/download">Product</Nav.Link>
+    <Nav.Link href="#home">Home</Nav.Link>
+    <Nav.Link href="https://slack.com/intl/en-in/download">Product</Nav.Link>
       <Nav.Link href="https://slack.com/intl/en-in/enterprise">Enterprise</Nav.Link>
       <Nav.Link href="https://slack.com/intl/en-in/resources">Resources</Nav.Link>
       <Nav.Link href="https://slack.com/intl/en-in/pricing">Pricing</Nav.Link>
@@ -40,11 +39,14 @@ function Navbar1(){
     <Nav className="right">
     <Button variant="outline" onClick={sales}>Talk to sales</Button>
     </Nav>
+    &nbsp;
+    &nbsp;
+    &nbsp;
     <Nav className="right1">
     <Button onClick={free}>Try for Free</Button>
     </Nav>
-    </Navbar>
-    </div>
+
+  </Navbar.Collapse>
 </Navbar>
 </div>
     )

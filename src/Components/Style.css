@@ -6,26 +6,19 @@
     font-size: 18px;
 }
 .right{
-    width:fit-content;
-    margin-left: 25em;
-    justify-content: right;
     border: 1px solid #4A154B;
     border-radius: 0.5em;
 }
 .right Button:hover{
-    width:fit-content;
 border: 2px solid #4A154B;
 border-radius: 0.5em;
 }
 .right1 Button{
-    width:fit-content;
-    margin-left: 2em;
     background-color: #4A154B;
     border-radius: 0.5em;
     border-color: #4A154B;
 }
 .right1 Button:hover{
-    width:auto;
     background-color: #F6EFE8;
     border-color: #4A154B;
     color: #4A154B;
