@@ -1,0 +1,159 @@
+.Navbar {
+    background-color: #F6EFE8;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    padding: 0em 1em;
+    font-size: 18px;
+}
+.right{
+    width:fit-content;
+    margin-left: 25em;
+    justify-content: right;
+    border: 1px solid #4A154B;
+    border-radius: 0.5em;
+}
+.right Button:hover{
+    width:fit-content;
+border: 2px solid #4A154B;
+border-radius: 0.5em;
+}
+.right1 Button{
+    width:fit-content;
+    margin-left: 2em;
+    background-color: #4A154B;
+    border-radius: 0.5em;
+    border-color: #4A154B;
+}
+.right1 Button:hover{
+    width:auto;
+    background-color: #F6EFE8;
+    border-color: #4A154B;
+    color: #4A154B;
+}
+.First{
+    width: 100%;
+}
+.First h3{
+    color:black;
+}
+.First p{
+    color:black;
+}
+.row1{
+    background-color: #F6EFE8;
+}
+.row1 p{
+    font-size: 20px;
+}
+.Home{
+    font-family: 'Caveat', cursive;
+}
+
+.down{
+    margin-left: 1em;
+}
+.down Button:hover{
+border: 2px solid #4A154B;
+border-radius: 0.5em;
+}
+.row2{
+    width:100%;
+    background-color: #F6EFE8;
+    justify-content: center;
+    border: 2px solid red;
+}
+.row3{
+    background-color: #F6EFE8;
+    justify-content: center;
+    color: blue;
+}
+.row3 Button{
+    background-color: #F6EFE8;
+    border: currentColor;
+    justify-content: center;
+    color: blue;
+}
+.row3 Button:hover{
+    background-color: #F6EFE8;
+    text-decoration: underline;
+    border: currentColor;
+    justify-content: center;
+    color: blue;
+}
+.row4{
+    background-color: #F6EFE8;
+}
+.row4 p{
+    font-size: 23px;
+    font-style: italic;
+    color:#1D1D1D;
+}
+.intuit{
+    margin-top: 1em;
+}
+.row5{
+   background-color: #1264A3;
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+.row5 p{
+    margin:1em;
+    font-size: 20px;
+}
+.row5 p:hover{
+    background-color: #1264A3;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+ }
+ .row6{
+    background-color: #4A154B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+ }
+.bottom1{
+    margin-top: 1.5em;
+    height:fit-content;
+    border-radius: 0.5em;
+    background-color: white;
+    border-color: white;
+    color: #4A154B;
+}
+.bottom1:hover{
+    border-radius: 0.5em;
+    background-color: #4A154B;
+    border-color: white;
+}
+.innertext:hover{
+   text-decoration: underline;
+}
+.innerrow{
+    font-weight: bold;
+    font-size: 20px;
+}
+.image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Main{
+    background-color: #F6EFE8;
+    width: auto;
+}
+.row8{
+    background-color: #F6EFE8;
+}
+.row9{
+    background-color: #F6EFE8;
+}
+.Home{
+    background-color: #F6EFE8;
+}
+.icons{
+    cursor: pointer;
+}
